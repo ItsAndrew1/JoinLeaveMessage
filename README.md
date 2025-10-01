@@ -37,5 +37,7 @@ leave-message: "&c{player} has left the server!"
 This plugin is built with the Spigot/Paper API.
 Folder structure: 
 src/main/java/me/andrew/joinMessage/JoinMessage.java
-src/main/resources/plugin.yml	
+
+src/main/resources/plugin.yml
+
 src/main/resources/config.yml
