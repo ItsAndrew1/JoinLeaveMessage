@@ -27,7 +27,7 @@ Default `config.yml`:
 join-message: "&a{player} has joined the server!"
 leave-message: "&c{player} has left the server!"
 ```
-{player} → replaced with the player’s username
+{player} → replaced with the player’s username.
 & → used for Minecraft color codes.
 
 ---
