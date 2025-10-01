@@ -1,4 +1,4 @@
-# JoinMessage
+# JoinLeaveMessage
 
 A simple Minecraft plugin that lets you customize the **join** and **leave** messages on your server.  
 Made with the Spigot/Paper API.
