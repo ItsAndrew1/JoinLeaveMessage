@@ -1,0 +1,5 @@
+name: JoinLeaveMessage
+version: '1.0'
+main: me.andrew.joinLeaveMessage.JoinLeaveMessage
+api-version: '1.13'
+author: ItsAndrew1
