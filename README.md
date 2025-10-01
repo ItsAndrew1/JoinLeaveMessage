@@ -9,7 +9,7 @@ Made with the Spigot/Paper API.
 - Customizable **join** and **leave** messages.  
 - Supports **color codes** using `&` (e.g. `&a`, `&c`).  
 - Placeholder `{player}` for the player’s name.  
-- Change messages easily via config or in-game commands.  
+- Change messages easily via config.
 
 ---
 
