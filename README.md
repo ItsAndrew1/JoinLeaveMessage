@@ -1,4 +1,4 @@
-# JoinMessage
+# JoinLeaveMessage
 
 A simple Minecraft plugin that lets you customize the **join** and **leave** messages on your server.  
 Made with the Spigot/Paper API.
@@ -9,7 +9,7 @@ Made with the Spigot/Paper API.
 - Customizable **join** and **leave** messages.  
 - Supports **color codes** using `&` (e.g. `&a`, `&c`).  
 - Placeholder `{player}` for the player’s name.  
-- Change messages easily via config or in-game commands.  
+- Change messages easily via config.
 
 ---
 
@@ -26,14 +26,20 @@ Default `config.yml`:
 ```yaml
 join-message: "&a{player} has joined the server!"
 leave-message: "&c{player} has left the server!"
-{player} → replaced with the player’s username
+```
+{player} → replaced with the player’s username.
+
 & → used for Minecraft color codes.
 
 ---
 
 ## 🛠️ Development
 This plugin is built with the Spigot/Paper API.
+
 Folder structure: 
-	src/main/java/me/andrew/joinMessage/JoinMessage.java
-	src/main/resources/plugin.yml
-	src/main/resources/config.yml
+
+src/main/java/me/andrew/joinMessage/JoinMessage.java
+
+src/main/resources/plugin.yml
+
+src/main/resources/config.yml
