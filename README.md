@@ -6,7 +6,8 @@ Made with the Spigot/Paper API.
 ---
 
 ## ✨ Features
-- Customizable **join** and **leave** messages.  
+- Customizable **join** and **leave** messages.
+- New custom commands! (see release v1.1 for more)  
 - Supports **color codes** using `&` (e.g. `&a`, `&c`).  
 - Placeholder `{player}` for the player’s name.  
 - Change messages easily via config.
