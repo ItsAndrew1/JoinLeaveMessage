@@ -1,5 +1,14 @@
 name: JoinLeaveMessage
-version: '1.0'
+version: '1.1'
 main: me.andrew.joinLeaveMessage.JoinLeaveMessage
 api-version: '1.13'
 author: ItsAndrew1
+
+commands:
+  setjm:
+    description: Sets the join message of the server
+    usage: /setjm <message>
+
+  setlm:
+    description: Sets the leave message of the server
+    usage: /setlm <message>
