@@ -7,8 +7,18 @@ author: ItsAndrew1
 commands:
   setjm:
     description: Sets the join message of the server
+    permission: joinleavemessage.setjm
     usage: /setjm <message>
 
   setlm:
     description: Sets the leave message of the server
+    permission: joinleavemessage.setlm
     usage: /setlm <message>
+
+permissions:
+  joinleavemessage.*:
+    description: Gives access to all JoinLeaveMessages commands
+    default: op
+    children:
+      joinleavemessage.setjm: true
+      joinleavemessage.setlm: true
